@@ -39,3 +39,4 @@ cleanData<-select(cleanData,-ActivityNumber)#We don't need this variable anymore
 
 #Assignment part 5. 'The average of each variable for each activity and each subject
 finalData<-cleanData %>% group_by(ActivityName,subject) %>% summarise_each(funs(mean))
+write.table(finalData, file="tidyDataSet.txt", row.name=FALSE)
