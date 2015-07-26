@@ -4,10 +4,10 @@ The values given are the average (mean) of all the values that were recorded for
 
 The first column, aptly named ActivityName, describes the activity the subject was performing when the measurement was taken.
 The second column, named subject, tells us which particular user (subject) each measurement was recorded by.
+
 All other columns describe either the mean or standard deviation (std) of each measurement. To further describe these, information from the file features_info.txt from the original 'unclean' data set has been included here for convenience:
 
-Feature Selection 
-=================
+##Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
